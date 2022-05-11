@@ -1,0 +1,68 @@
+h1{color:red;font-size:30px;}
+h2{color:green;font-size:25px;}
+
+#banniere
+{ background-image: url("lecnam.jpg");
+width:600px ;
+height:200px;
+margin: auto;
+margin-bottom: 10px;}
+
+
+
+
+#nav{padding:0;margin:0;/* espace entre la marge du haut et le menu*/
+text-align:center;/*centrer le texte*/}
+
+#nav li{ display: inline;
+list-style:none;}
+
+#nav a{ display:inline-block;
+		margin:0 40 3 40px;
+		background: #F0CFAE;/* la couleur de fond*/
+		width:400px;
+		text-decoration:none;/*pas d'héritage avec effet souligné*/
+		color:#960606;/* la couleur du texte*/
+		height:30px;/*la hauteur*/
+		line-height:3 50 3 50px;/* interligne*/
+		padding:0 50px;/* marges interieur*/ 
+		font-family: Open Sans ;/* police d'ecriture*/
+		font-size:28px;/* taille du texte*/
+        border-radius: 20px;
+}
+
+
+#nav a:hover{background:white;}
+
+table { border:2px solid black;}
+
+tr{background-color:white;}
+td { border:2px DOTTED red;}
+
+#interv{ background-color: yellow;}
+
+
+caption{margin-bottom:30px;
+        color: red;
+		text-decoration: underline;
+        font-size:30px;}
+		
+
+th{
+   background-color:pink;
+   height:35px;
+   border: ridge 1,5px;
+   color: #3C19EA ;
+}
+
+
+footer{ background: black;
+       width: 97%;
+	  justify-content:center;/*center horizontalement*/
+	  display: flex;
+	  padding:40px;
+	  margin-left: auto;
+	  margin-right:auto; 
+      color: White;
+	  margin-top:50px;
+}
